@@ -13,10 +13,11 @@
 
     <!-- Bootstrap Core CSS -->
 
-    <?= link_tag('../assets/css/bootstrap.min.css') ?>
-    <?= link_tag('../assets/css/Estilos.css') ?>
-    <?= link_tag('../assets/css/2-col-portfolio.css') ?>
 
+    <link href="<?=base_url();?>assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?=base_url();?>assets/css/Estilos.css" rel="stylesheet">
+    <link href="<?=base_url();?>assets/css/2-col-portfolio.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -48,7 +49,28 @@
 
 
 
-               Bem vindo, <span style="color :#F59034; "> <?= anchor('User/index', 'Usuário Logado '); ?> </span> &nbsp;<span class="glyphicon glyphicon-menu-down"></span>
+               Bem vindo, <span style="color :#F59034; "  class="show-on-hover">
+               <a href="<?= base_url();?>user" class="dropdown-toggle" data-toggle="dropdown">
+                        Usuario Logado &nbsp;<span style="color: #333;" class="glyphicon glyphicon-menu-down"></span>
+                </a>
+                <ul class="dropdown-menu" role="menu" style="top: 80% !important;left: 10% !important;">
+                    <li><a href="#">Informações da Conta</a></li>
+                    <li><a href="#">Newsletters</a></li>
+                    <li><a href="#">Meus pedidos</a></li>
+                    <li><a href="#">Meus cupons</a></li>
+                    <li><a href="#"><i class="fa fa-plus"></i> Convidar amigos</a></li>
+                    <li><a href="#">Meus convites</a></li>
+                    <li><a href="#">Desconectar</a></li>
+
+
+
+
+
+
+
+                </ul>
+                </span>
+
 
               </div>
 

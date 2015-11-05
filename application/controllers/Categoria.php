@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Produto extends CI_Controller {
+class Categoria extends CI_Controller {
 
    /**
     * Método principal do mini-crud
@@ -9,12 +9,18 @@ class Produto extends CI_Controller {
     * @return view
     */
 
-   public function detalhe()
+   public function index()
    {
 
       $variaveis['cadastros'] ="";
 
-      $this->load->view('sobre_produto', $variaveis);
+      $this->load->view('categoria', $variaveis);
+   }
+
+   public function detalhe(){
+
+      $this->load->view('detalhe', $variaveis);
+
    }
 
 

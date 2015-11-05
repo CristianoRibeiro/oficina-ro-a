@@ -109,7 +109,7 @@
 ">
                     <span style="
     color: #CCCCCC;
-">ACABA EM 14:36 | </span><a href="<?= base_url();?>produto/detalhe" style="padding: 10px;" class="btn btn-default"> EFETUAR COMPRA </a>
+">ACABA EM 14:36 | </span><a href="<?= base_url();?>categoria" style="padding: 10px;" class="btn btn-default"> EFETUAR COMPRA </a>
                 </p>
             </div>
             <div class="col-md-6 portfolio-item">
@@ -130,7 +130,7 @@
 ">
                     <span style="
                     color: #CCCCCC;
-                ">ACABA EM 14:36 | </span><a href="<?= base_url();?>produto/detalhe" style="padding: 10px;" class="btn btn-default"> EFETUAR COMPRA </a>
+                ">ACABA EM 14:36 | </span><a href="<?= base_url();?>categoria" style="padding: 10px;" class="btn btn-default"> EFETUAR COMPRA </a>
                   </p>
             </div>
         </div>
