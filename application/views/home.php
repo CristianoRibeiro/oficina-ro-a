@@ -31,7 +31,7 @@
     text-align: -webkit-center;
     text-align:center;
         font-size: 30px;">
-                <b>Caguei se meu pog de css ta ai no meio, se quiser arruma ,.. sei que ta falando disso
+                <b>Mais que uma cadeira  
                 <br>
                 <span style="
 
