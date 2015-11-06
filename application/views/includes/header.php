@@ -56,7 +56,7 @@
                 <ul class="dropdown-menu" role="menu" style="top: 80% !important;left: 10% !important;">
                     <li><a href="#">Informações da Conta</a></li>
                     <li><a href="#">Newsletters</a></li>
-                    <li><a href="#">Meus pedidos</a></li>
+                    <li><a href="<?= base_url();?>user/pedidos">Meus pedidos</a></li>
                     <li><a href="#">Meus cupons</a></li>
                     <li><a href="#"><i class="fa fa-plus"></i> Convidar amigos</a></li>
                     <li><a href="#">Meus convites</a></li>

@@ -17,5 +17,13 @@ class User extends CI_Controller {
       $this->load->view('user', $variaveis);
    }
 
+   public function pedidos()
+   {
+
+      $variaveis['cadastros'] ="";
+      //$this->load->view('includes/header');
+      $this->load->view('pedidos', $variaveis);
+   }
+
 
 }
