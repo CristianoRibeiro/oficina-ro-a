@@ -64,10 +64,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => 'root',
-	'database' => '',
+	'hostname' => 'christianweb.com.br',
+	'username' => 'chris872_oficina',
+	'password' => '@123mudar',
+	'database' => 'chris872_oficina',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,

@@ -63,12 +63,10 @@
             <div class="row">
                <div class="col-xs-6 col-sm-6 col-md-12 col-lg-12 text-center" style="min-height: 200px;">
 
-                  <h3 style="margin-top: 10%; margin-bottom:8%; font-style: italic;
-    font-family: -webkit-pictograph;
-    text-align: -webkit-center;
-    text-align:center;
-        font-size: 30px;"><strong><em>Jogo de Sachês Aromáticos Gold</em></strong></h3>
+                  <h3 style="margin-top: 10%; margin-bottom:8%; font-style: italic; font-family: -webkit-pictograph;
+                  text-align: -webkit-center; text-align:center; font-size: 30px;">
 
+                      <strong><em>Jogo de Sachês Aromáticos Gold</em></strong></h3>
 
                       <div class="row">
                         <div class="col-xs-8 col-sm-6 text-center">
