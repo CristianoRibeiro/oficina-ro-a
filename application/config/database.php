@@ -64,7 +64,7 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'christianweb.com.br',
+	'hostname' => 'christianweb.com.br:3306',
 	'username' => 'chris872_oficina',
 	'password' => '@123mudar',
 	'database' => 'chris872_oficina',

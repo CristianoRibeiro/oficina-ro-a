@@ -2,8 +2,15 @@
 
 <body cz-shortcut-listen="true">
 
+<div class="container" style="
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+">
+
 <div class="row">
-  <div class="col-md-10 col-md-offset-1 bg_login">
+  <div class="col-md-12 bg_login">
 
 
        <div class="row">
@@ -138,7 +145,7 @@
 
   </div>
 </div>
-
+</div>
 
   <!-- jQuery -->
     <script src="<?= base_url('../assets/js/jquery.js') ?>"></script>
