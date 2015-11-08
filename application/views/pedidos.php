@@ -20,9 +20,6 @@
 
 
 
-
-
-
          Pagina de pedidos do cliente efetuado.
          nesse espaço.
 
