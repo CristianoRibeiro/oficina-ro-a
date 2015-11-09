@@ -14,7 +14,7 @@ class Home extends CI_Controller {
 
 		$variaveis['cadastros'] ="";
 		$this->load->view('includes/header');
-		$this->load->view('home', $variaveis);
+		$this->load->view('home/home', $variaveis);
 	}
 
 

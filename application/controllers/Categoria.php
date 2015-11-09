@@ -13,14 +13,16 @@ class Categoria extends CI_Controller {
    {
 
       $variaveis['cadastros'] ="";
-
-      $this->load->view('categoria', $variaveis);
+      $this->load->view('includes/header', $variaveis);
+      $this->load->view('categoria/categoria', $variaveis);
+      $this->load->view('includes/footer');
    }
 
-   public function detalhe(){
-
-      $this->load->view('detalhe', $variaveis);
-
+   public function detalhe()
+   {
+        $this->load->view('includes/header');
+        $this->load->view('produto/detalhe', $variaveis);
+        $this->load->view('includes/footer');
    }
 
 

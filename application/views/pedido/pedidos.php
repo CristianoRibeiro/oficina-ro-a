@@ -1,6 +1,3 @@
-<?php
-    include 'includes/header.php';
-?>
 
 <div class="container" style="
     margin-top: 20px;
@@ -22,8 +19,8 @@
 <div class="sidebar-nav">
     <div class="well" style="width:300px; padding: 8px 0;">
 		<ul class="nav nav-list">        
-                    <li><a href="index"><i class="icon-home"></i> NewSletters</a></li>
-                    <li><a href="#"><i class="icon-envelope"></i> Meus pedidos</a></li>
+                    <li><a href="<?php base_url(); ?>"><i class="icon-home"></i> NewSletters</a></li>
+                    <li><a href="<?php base_url(); ?>pedidos"><i class="icon-envelope"></i> Meus pedidos</a></li>
                     <li><a href="#"><i class="icon-comment"></i> Meus cupons</a></li>
                     <li class="active"><a href="#"><i class="icon-user"></i> Convidar amigos</a></li>
                     <li class="divider"></li>
@@ -166,12 +163,3 @@
    </div>
 
 </div>
-
--->
-
-
-
-
-<?php
-    include 'includes/footer.php';
- ?>
