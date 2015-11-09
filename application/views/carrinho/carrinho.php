@@ -11,7 +11,7 @@
         </div>
       </nav>
 	<table id="cart" class="table table-hover table-condensed">
-                                <thead>
+    				<thead>
 						<tr>
 							<th style="width:50%">Produto</th>
 							<th style="width:10%">Preço</th>
