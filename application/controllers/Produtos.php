@@ -11,7 +11,6 @@ class Produtos extends CI_Controller {
 
    public function index()
    {
-
       $variaveis['cadastros'] ="";
       $this->load->view('includes/header');
       $this->load->view('produto/detalhe', $variaveis);

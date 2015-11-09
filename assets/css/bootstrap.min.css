@@ -2783,7 +2783,7 @@ th {
 
 .table-condensed > tbody > tr > td, .table-condensed > tbody > tr > th, .table-condensed > tfoot > tr > td,
 .table-condensed > tfoot > tr > th, .table-condensed > thead > tr > td, .table-condensed > thead > tr > th {
-    padding: 5px
+    padding: 20px
 }
 
 .table-bordered {
@@ -3645,7 +3645,7 @@ fieldset[disabled] .btn-info:focus, fieldset[disabled] .btn-info:hover {
 
 .btn-warning {
     color: #fff;
-    background-color: #f0ad4e;
+    background-color: #F59034;
     border-color: #eea236
 }
 
