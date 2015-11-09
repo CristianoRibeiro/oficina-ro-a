@@ -11,15 +11,17 @@
 ">
 
 <ol class="breadcrumb">
-  <li><a href="#">Home</a></li>
-  <li><a href="#">Categoria</a></li>
-  <li class="active"><a href="#">Detalhe</a></li>
+    <li><a href="">Home</a></li>
+    <li><a href="<?= base_url();?>categoria">Categoria</a></li>
+    <li class="active"><a href="<?= base_url();?>categoria/detalhe">Detalhe</a></li>
 </ol>
 
    <div class="row">
        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
 
+
+<!--
 <div class="container">
 	<div class="row">
 		
@@ -148,6 +150,8 @@
    </div>
 
 </div>
+
+-->
 
 
 

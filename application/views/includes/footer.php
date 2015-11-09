@@ -90,19 +90,19 @@
                                 ">
                                 <li style="
                                     float: left;margin: 10px;">
-                                    <span><img src="<?= base_url('../assets/images/facebook.png') ?>" title="Oficina Instagram" ></span>
+                                    <span><img src="<?= base_url('assets/images/facebook.png') ?>" title="Oficina Instagram" ></span>
                                 <br>Oficina <br> Facebook</li>
                                 <li style="
                                     float: left;
                                     margin: 10px;
                                 ">
-                                    <span><img src="<?= base_url('../assets/images/instagram.png') ?>" title="Oficina Instagram" ></span>
+                                    <span><img src="<?= base_url('assets/images/instagram.png') ?>" title="Oficina Instagram" ></span>
                                 <br>Oficina <br> Instagram</li>
                                 <li style="
                                     float: left;
                                     margin: 10px;
                                 ">
-                                    <span><img src="<?= base_url('../assets/images/twitter.png') ?>" title="Oficina Instagram" ></span>
+                                    <span><img src="<?= base_url('assets/images/twitter.png') ?>" title="Oficina Instagram" ></span>
                                 <br>Oficina <br> Twitter</li>
                            </ul>
                           </div>
