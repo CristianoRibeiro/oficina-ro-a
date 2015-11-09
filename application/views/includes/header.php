@@ -17,7 +17,7 @@
     <link href="<?=base_url();?>assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="<?=base_url();?>assets/css/Estilos.css" rel="stylesheet">
     <link href="<?=base_url();?>assets/css/2-col-portfolio.css" rel="stylesheet">
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="<?= base_url();?>//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -56,18 +56,11 @@
                 <ul class="dropdown-menu" role="menu" style="top: 80% !important;left: 10% !important;">
                     <li><a href="#">Informações da Conta</a></li>
                     <li><a href="#">Newsletters</a></li>
-                    <li><a href="<?= base_url();?>user/pedidos">Meus pedidos</a></li>
+                    <li><a href="<?= base_url();?>pedidos">Meus pedidos</a></li>
                     <li><a href="#">Meus cupons</a></li>
                     <li><a href="#"><i class="fa fa-plus"></i> Convidar amigos</a></li>
                     <li><a href="#">Meus convites</a></li>
                     <li><a href="#">Desconectar</a></li>
-
-
-
-
-
-
-
                 </ul>
                 </span>
 
