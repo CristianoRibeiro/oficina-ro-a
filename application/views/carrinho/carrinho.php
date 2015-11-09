@@ -11,15 +11,15 @@
         </div>
       </nav>
 	<table id="cart" class="table table-hover table-condensed">
-    				<thead>
+                                <thead>
 						<tr>
-							<th style="width:50%">Product</th>
-							<th style="width:10%">Price</th>
-							<th style="width:8%">Quantity</th>
+							<th style="width:50%">Produto</th>
+							<th style="width:10%">Preço</th>
+							<th style="width:8%">Quantidade</th>
 							<th style="width:22%" class="text-center">Subtotal</th>
 							<th style="width:10%"></th>
 						</tr>
-					</thead>
+                                </thead>
 					<tbody>
 						<tr>
 							<td data-th="Product">

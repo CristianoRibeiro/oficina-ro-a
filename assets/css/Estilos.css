@@ -1,69 +1,4 @@
-body {
 
-}
-
-.posicaoPainel{
-	margin-top:60px;
-}
-
-.codigo{
-	width:200px;
-}
-
-.textos{
-	width:400px;
-}
-
-.telefone{
-	width:180px;
-}
-
-.tabelas{
-	width:1100px;
-}
-
-.valor{
-	width:150px;
-}
-
-.prazo{
-	width:60px;
-}
-
-.altura{
-	width:70px;
-}
-
-.largura{
-	width:70px;
-}
-
-.frase{
-	width:1000px
-}
-
-.quantidadeLetras{
-	width:50px;
-}
-
-.data{
-	width:200px;
-}
-
-.mensagens{
-	width:880px;
-}
-
-
-
-/*########################################LOGIN USUARIO TELA #####################################*/
-
-
-
-
-
-
-         /*!
        * Start Bootstrap - The Big Picture HTML Template (http://startbootstrap.com)
        * Code licensed under the Apache License v2.0.
        * For details, see http://www.apache.org/licenses/LICENSE-2.0.
@@ -86,9 +21,9 @@ body {
 
 body {
 
-      margin-top: 50px;
-      margin-bottom: 50px;
-      background: none;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: none;
 
     font-family: Open Sans;
     font-size: 14px;

@@ -2,13 +2,6 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Carrinho extends CI_Controller {
-
-	/**
-	 * Método principal do mini-crud
-	 * @param nenhum
-	 * @return view
-	 */
-
 	public function index()
 	{
 
