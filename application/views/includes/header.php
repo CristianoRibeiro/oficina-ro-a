@@ -46,9 +46,6 @@
              </div>
               </div>
               <div class="col-md-3">
-
-
-
                Bem vindo, <span style="color :#F59034; "  class="show-on-hover">
                <a href="<?= base_url();?>login" class="dropdown-toggle" data-toggle="dropdown">
                         Usuario Logado &nbsp;<span style="color: #333;" class="glyphicon glyphicon-menu-down"></span>
