@@ -9,12 +9,28 @@
     margin-bottom: 10px;
     min-height: 600px;
 ">
-
-<ol class="breadcrumb">
-    <li><a href="">Home</a></li>
-    <li><a href="<?= base_url();?>categoria">Categoria</a></li>
-    <li class="active"><a href="<?= base_url();?>categoria/detalhe">Detalhe</a></li>
-</ol>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+      <div class="navbar-header">
+      <a class="navbar-brand" href="">
+        Meus Pedidos
+      </a>
+    </div>
+  </div>
+</nav>
+    
+<div class="sidebar-nav">
+    <div class="well" style="width:300px; padding: 8px 0;">
+		<ul class="nav nav-list">        
+                    <li><a href="index"><i class="icon-home"></i> NewSletters</a></li>
+                    <li><a href="#"><i class="icon-envelope"></i> Meus pedidos</a></li>
+                    <li><a href="#"><i class="icon-comment"></i> Meus cupons</a></li>
+                    <li class="active"><a href="#"><i class="icon-user"></i> Convidar amigos</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#"><i class="icon-comment"></i> Meus convites</a></li>
+		</ul>
+	</div>
+</div>
 
    <div class="row">
        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
