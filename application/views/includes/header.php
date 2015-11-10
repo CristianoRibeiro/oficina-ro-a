@@ -17,7 +17,7 @@
     <link href="<?=base_url();?>assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="<?=base_url();?>assets/css/Estilos.css" rel="stylesheet">
     <link href="<?=base_url();?>assets/css/2-col-portfolio.css" rel="stylesheet">
-    <link href="<?=base_url();?>/maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -47,7 +47,7 @@
               </div>
               <div class="col-md-3">
                Bem vindo, <span style="color :#F59034; "  class="show-on-hover">
-               <a href="<?= base_url();?>user" class="dropdown-toggle" data-toggle="dropdown">
+               <a href="<?= base_url();?>login" class="dropdown-toggle" data-toggle="dropdown">
                         Usuario Logado &nbsp;<span style="color: #333;" class="glyphicon glyphicon-menu-down"></span>
                 </a>
                 <ul class="dropdown-menu" role="menu" style="top: 80% !important;left: 10% !important;">
