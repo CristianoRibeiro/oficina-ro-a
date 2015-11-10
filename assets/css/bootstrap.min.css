@@ -2342,7 +2342,7 @@ pre code {
     }
 
     .col-md-6 {
-       width: 75%;
+       width: 45%;
     }
 
     .col-md-5 {
@@ -2510,8 +2510,7 @@ pre code {
     }
 
     .col-md-offset-2 {
-        margin-left: 25%;
-        margin-top: -245px;
+        margin-left: 16.666%;
     }
 
     .col-md-offset-1 {
@@ -2784,7 +2783,7 @@ th {
 
 .table-condensed > tbody > tr > td, .table-condensed > tbody > tr > th, .table-condensed > tfoot > tr > td,
 .table-condensed > tfoot > tr > th, .table-condensed > thead > tr > td, .table-condensed > thead > tr > th {
-    padding: 20px
+    padding: 5px
 }
 
 .table-bordered {
