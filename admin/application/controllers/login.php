@@ -3,11 +3,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Login extends CI_Controller {
 
-   /**
-    * Método principal do mini-crud
-    * @param nenhum
-    * @return view
-    */
+
+
+   function __construct()
+ {
+   parent::__construct();
+ }
+
 
    public function index()
    {
