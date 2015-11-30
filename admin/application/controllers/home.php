@@ -1,5 +1,4 @@
 <?php
-
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 
@@ -15,16 +14,19 @@ class Home extends CI_Controller {
    function __construct()
     {
       parent::__construct();
-      session_start();
+
+
     }
+
 
 
    public function index()
    {
+      session_start();
       if($this->session->userdata('logged_in'))
       {
         $session_data = $this->session->userdata('logged_in');
-        $data['username'] = $session_data['username'];
+        $data['login'] = $session_data['login'];
         $this->load->view('home/includes/header');
         $this->load->view('home/home', $data);
         $this->load->view('home/includes/footer');
