@@ -14,7 +14,7 @@
                         <div class="panel-heading">
                             Listagem de produtos avançada
 
-                             <a href="#" class="btn btn-primary btn-xs pull-right"><b>+</b> Add new product</a>
+                             <a href="<?=base_url();?>produtos/newProduct" class="btn btn-primary btn-xs pull-right"><b>+</b> Add new product</a>
 
                         </div>
                         <!-- /.panel-heading -->
