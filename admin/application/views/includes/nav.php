@@ -11,7 +11,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Oficina da Roça</a>
+                <a class="navbar-brand" href="<?=base_url();?>home">Oficina da Roça</a>
             </div>
             <!-- /.navbar-header -->
 
@@ -240,7 +240,7 @@
                             <!-- /input-group -->
                         </li>
                         <li>
-                            <a href="index.html"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                            <a href="<?=base_url();?>home"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
                         </li>
                         <li>
                             <a href="<?=base_url(); ?>produtos"><i class="fa fa-shopping-cart fa-fw"></i> Produtos</a>
