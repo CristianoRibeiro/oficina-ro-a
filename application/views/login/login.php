@@ -86,7 +86,7 @@
                               <div class="tab-content tabs-login col-lg-12 col-md-12 col-sm-12 cols-xs-12">
                                  <div id="login-access" class="tab-pane fade active in">
                                     <!--<h2><i class="glyphicon glyphicon-log-in"></i> Accesso</h2>-->
-                                    <form method="post" accept-charset="utf-8" autocomplete="off" role="form" class="form-horizontal">
+                                     <form method="post" accept-charset="utf-8" action="Login/index" autocomplete="off" role="form" class="form-horizontal">
                                        <div class="form-group ">
                                           <label for="login" class="sr-only">Email</label>
                                              <input type="text" class="form-control" name="login" id="login_value"
