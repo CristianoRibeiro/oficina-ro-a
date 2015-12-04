@@ -9,7 +9,5 @@ class Carrinho extends CI_Controller {
 		$this->load->view('carrinho/carrinho', $variaveis);
                 $this->load->view('includes/footer');
 	}
-
-
 }
 
