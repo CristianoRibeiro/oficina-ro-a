@@ -90,12 +90,12 @@
                                        <div class="form-group ">
                                           <label for="login" class="sr-only">Email</label>
                                              <input type="text" class="form-control" name="login" id="login_value"
-                                                placeholder="Email" tabindex="1" value="" />
+                                                placeholder="login" tabindex="1" value="" />
                                        </div>
                                        <div class="form-group ">
                                           <label for="password" class="sr-only">Password</label>
-                                             <input type="password" class="form-control" name="password" id="password"
-                                                placeholder="Password" value="" tabindex="2" />
+                                             <input type="password" class="form-control" name="senha" id="password"
+                                                placeholder="senha" value="" tabindex="2" />
                                        </div>
                                        <div class="checkbox">
                                              <label class="control-label" for="remember_me">
